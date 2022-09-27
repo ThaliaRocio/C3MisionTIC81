@@ -1,0 +1,19 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.FormEncomiendaModel
+@{
+}
+ 
+<div class="text-center">
+    <form method=”POST”>
+        <label for="descripcion" class="form-label">Descripción:</label>
+        <input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="Descripción">
+        <label for="peso" class="form-label">Peso:</label>
+        <input type="text" class="form-control" id="peso" name="peso" placeholder="Peso">
+        <label for="tipo" class="form-label">Tipo:</label>
+        <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo">
+        <label for="presentacion" class="form-label">Presentación:</label>
+        <input type="text" class="form-control" id="presentacion" name="presentacion" placeholder="Presentación">
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
